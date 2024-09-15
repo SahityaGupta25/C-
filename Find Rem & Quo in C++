@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b,rem,quo;
+    cout << "Enter a First Number ";
+    cin >> a;
+    cout << "Enter a Second Number ";
+    cin >> b;
+    quo = a/b;
+    rem = a%b;
+    cout << "The quotient is = " << quo << endl;
+    cout << "The Remainder is = " << rem;
+    
+    return 0;
+}
