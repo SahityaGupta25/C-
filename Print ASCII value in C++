@@ -1,0 +1,13 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int a = 22;
+    char c = 'A';
+    cout << "The ASCII value of 'a' is = " << int(c) << endl;
+
+    
+    return 0;
+}
