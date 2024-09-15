@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 25, b = 2.5, c = 'A', d = 22.66758758767 ;
+    cout << "The Size of CHAR is = " << sizeof(char) <<endl;
+    cout << "The Size of Float is = " << sizeof(float) <<endl;
+    cout << "The Size of Double is = " << sizeof(double) <<endl;
+    cout << "The Size of INT is = " << sizeof(int) << endl;
+    
+    
+    // cout << "Enter a First Number ";
+    // cin >> a;
+    // cout << "Enter a Second Number ";
+    // cin >> b;
+    // quo = a/b;
+    // rem = a%b;
+    // cout << "The quotient is = " << quo << endl;
+    // cout << "The Remainder is = " << rem;
+    
+    return 0;
+}
