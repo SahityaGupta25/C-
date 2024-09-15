@@ -1,0 +1,18 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int a = 22, b = 44, c;
+    cout << "The First Variable is = " << a << endl;
+    cout << "The Second Variable is = " << b << endl;
+    cout << "After Swappping" << endl;
+    c = a;
+    a = b;
+    b = c;
+    cout << "The First Variable is = " << a << endl;
+    cout << "The Second Variable is = " << b << endl;
+    
+    return 0;
+}
